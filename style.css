@@ -514,7 +514,8 @@ disc{
         display: flex;
     }
     .indexImage{
-        width: 100%;
+        width: 512px;
+        height: 768px;
         margin-left: -10px:
     }
     #nossaHistoria, #nossaMissao, #variedadeJogos, #fe{
