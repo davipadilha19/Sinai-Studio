@@ -511,12 +511,13 @@ disc{
 
     #imagemBemvindo{
         /* visibility: hidden; */
-        display: flex;
+        display: none;
     }
     .indexImage{
         width: 512px;
         height: 768px;
-        margin-left: -10px:
+        margin: 0;
+        padding: 0;
     }
     #nossaHistoria, #nossaMissao, #variedadeJogos, #fe{
         text-align: center;
