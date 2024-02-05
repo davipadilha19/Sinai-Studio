@@ -513,6 +513,9 @@ disc{
         /* visibility: hidden; */
         display: none;
     }
+    .indexImage{
+        width: 100%;
+    }
     #nossaHistoria, #nossaMissao, #variedadeJogos, #fe{
         text-align: center;
         padding-top: 25px;
