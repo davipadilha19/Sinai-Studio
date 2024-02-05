@@ -277,8 +277,7 @@ html, body {
 }
 
 .imgGame {
-    width: 100%;
-    height: auto;
+    margin-left: -10px;
 }
 
 
