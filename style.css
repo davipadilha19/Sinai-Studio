@@ -517,6 +517,7 @@ disc{
         height: 768px;
         margin: 0;
         padding: 0;
+        display: none;
     }
     #nossaHistoria, #nossaMissao, #variedadeJogos, #fe{
         text-align: center;
