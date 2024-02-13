@@ -484,13 +484,13 @@ disc {
   right: 260px;
 }
 
-@media screen and (max-width: 1020px) {
+@media screen and (max-width: 800px) {
   .menu-desktop {
     display: none;
   }
   /*---Aba Index abertura---*/
   .sectionIndex {
-    width: 100vw;
+    overflow-x: hidden;
     flex-direction: column;
     margin-top: -40px;
     margin: auto;
