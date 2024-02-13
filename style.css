@@ -149,12 +149,13 @@ summary {
 .cont2 {
   margin: 20px;
   display: flex;
+  justify-content: space-between;
 }
 .cont3 {
   margin: 20px;
 }
 .cont4 {
-  margin: 30px;
+  margin: 40px;
 }
 .st {
   width: 400px;
@@ -182,9 +183,12 @@ summary {
   height: 480px;
 }
 .hm3 {
-  position: absolute;
-  top: 2150px;
-  right: 260px;
+  margin: auto;
+}
+.container-txt {
+  margin: 20px;
+  display: flex;
+  justify-content: space-between;
 }
 .hm3 img {
   width: 400px;
@@ -534,6 +538,9 @@ disc {
     padding: 0;
     margin: 0;
   }
+  .container-txt {
+    flex-direction: column-reverse;
+  }
 
   .hm1 {
     padding-bottom: 40px;
@@ -546,10 +553,9 @@ disc {
   }
 
   .hm3 {
-    justify-content: center;
+    align-items: center;
     position: static;
     padding-top: 40px;
-    margin-left: 0px;
   }
 
   .subTitulo {
@@ -572,11 +578,7 @@ disc {
     padding: 0;
     margin-left: 30px;
   }
-  .cont-txt {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
+
   .div-txt {
     display: flex;
     flex-direction: column;
