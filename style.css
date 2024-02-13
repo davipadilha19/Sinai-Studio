@@ -623,7 +623,7 @@ disc{
 
     /*Aba Contato Abertura*/
     .sectionContato{
-        width: 100%;
+        width: 100vw;
         flex-direction: column;
         margin-top: -40px;
         margin: auto;
