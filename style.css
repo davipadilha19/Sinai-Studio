@@ -490,7 +490,7 @@ disc {
   }
   /*---Aba Index abertura---*/
   .sectionIndex {
-    width: 100%;
+    width: 100vw;
     flex-direction: column;
     margin-top: -40px;
     margin: auto;
@@ -521,14 +521,14 @@ disc {
 
   .cont1 {
     flex-direction: column-reverse;
-    justify-content: center;
+    align-items: center;
     padding: 0;
     margin-left: 30px;
   }
 
   .cont2 {
     flex-direction: column;
-    justify-content: center;
+    align-items: center;
     padding: 0;
   }
 
